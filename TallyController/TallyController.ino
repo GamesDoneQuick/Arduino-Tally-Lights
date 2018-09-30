@@ -1,6 +1,6 @@
-#define TALLY_COUNT 6
-uint8_t const PVW_PINS[] = {2, 4, 6, 8, 10, 12};
-uint8_t const PGM_PINS[] = {3, 5, 7, 9, 11, 13};
+#define TALLY_COUNT 8
+uint8_t const PVW_PINS[] = {2, 4, 6, 8, 10, 12, A0, A2};
+uint8_t const PGM_PINS[] = {3, 5, 7, 9, 11, 13, A1, A3};
 long lastping;
 
 void connectATEMmonitor() {
